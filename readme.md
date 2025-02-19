@@ -22,7 +22,7 @@ If you find this project useful, please consider making a donation to help suppo
 To install Go Pomofocus, you need to have Go installed on your machine. Then, run the following command:
 
 ```sh
-go get github.com/yourusername/go-pomofocus
+go get github.com/BasZ4ll/go-pomofocus
 ```
 
 ## Usage
@@ -30,7 +30,11 @@ go get github.com/yourusername/go-pomofocus
 To start the Pomodoro timer, run:
 
 ```sh
-go-pomofocus
+go run main.go
+```
+
+```sh
+./pomofocus
 ```
 
 You can customize the timer intervals using command-line flags:
